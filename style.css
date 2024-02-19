@@ -1,0 +1,155 @@
+p
+{
+    font-family: fantasy;
+}
+
+.Type-text
+{
+    font-size: 50px;
+    color: rgb(146, 220, 255);
+}
+.Ty
+{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 17px;
+    background-color: rgb(147, 207, 247);
+    color: rgb(42, 123, 199);
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+
+.PufferFIsh
+{
+    background-color: rgb(238, 201, 78);
+    color: rgb(160, 130, 33);
+    border: none;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 100px;
+
+    transition: box-shadow 0.15s;
+    vertical-align: bottom;
+}
+.Rainbow
+{
+    background-color: rgb(248, 137, 137);
+    color: rgb(179, 63, 63);
+    border: none;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+
+    
+    transition: box-shadow 0.15s;
+    vertical-align: bottom;
+}
+
+.Octopus
+{
+    background-color: rgb(124, 84, 69);
+    color: rgb(255, 248, 210);
+    border: none;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+
+    
+    transition: box-shadow 0.15s;
+    vertical-align: bottom;
+}
+
+.Dorado
+{
+    background-color: rgb(240, 139, 102);
+    color: rgb(184, 80, 32);
+    border: none;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+
+    
+    transition: box-shadow 0.15s;
+    vertical-align: bottom;
+}
+
+.Btn
+{
+    background: rgb(146, 220, 255);
+    color:rgb(50, 128, 180);
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+
+    transition: opacity 0.15s;
+    margin-left: 500px;
+
+
+    vertical-align: bottom;
+}
+.Btn2
+{
+    background: rgb(146, 220, 255);
+    color:rgb(50, 128, 180);
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+
+    transition: opacity 0.15s;
+    margin-left: 10px;
+
+
+    vertical-align: bottom;
+}
+
+.GoldFish-button:hover
+{
+    box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.15);
+}
+.Rainbow-button:hover
+{
+    box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.15);
+}
+.Octopus-button:hover
+{
+    box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.15);
+}
+.Dorado-button:hover
+{
+    box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.15);
+}
+

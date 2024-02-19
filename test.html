@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ButtonPracite</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body> 
+        <p class = "Type-text">
+            ⁺ ⋆˚₊ʚ ₊✧ ⁺ Type of sea animals in Stardewvalley that can only be caught in summer  ⁺ ⋆˚₊ʚ ₊✧ ⁺
+        </p>
+        
+        <h2 id = "h2">In here we have 4 types of fish</h2>
+
+        <p id="demo"></p>
+
+        
+        <img id="myImage" src="https://stardewvalleywiki.com/mediawiki/images/5/5b/Fish_Display.gif">
+        
+        <button class = "PufferFIsh" onclick="document.getElementById('myImage').src='https://stardewvalleywiki.com/mediawiki/images/b/ba/Pufferfish.png'" >
+            PufferFIsh
+        </button>
+
+        <button class = "Rainbow"onclick="document.getElementById('myImage').src='https://stardewvalleywiki.com/mediawiki/images/1/14/Rainbow_Trout.png'">
+            Rainbow Trout
+        </button>
+
+        <button class = "Octopus"onclick="document.getElementById('myImage').src='https://stardewvalleywiki.com/mediawiki/images/5/5a/Octopus.png'">
+            Octopus
+        </button>
+
+        <button class = "Dorado"onclick="document.getElementById('myImage').src='https://stardewvalleywiki.com/mediawiki/images/1/18/Dorado.png'">
+            Dorado
+        </button>
+
+        <button id = "myBtn" class = "Btn">
+            Random question:3
+        </button>
+
+        <button id = "myBtn2" class = "Btn2">
+            My answer:>
+        </button>
+                   
+
+    <script>
+        let pTag = document.getElementById("demo");
+        let myBtn = document.getElementById("myBtn");
+        let myBtn2 = document.getElementById("myBtn2");
+        
+        myBtn.addEventListener("click", () => {
+            pTag.innerHTML = "Do you play StardewValley?";
+        })
+        myBtn2.addEventListener("click", () => {
+            alert("But I play Valorant");
+        })
+
+
+        document.getElementById("demo").innerHTML = "(Lits)";
+        let h2 = document.getElementById("h2");
+        h2.style.color = "DodgerBlue"
+        h2.style.textAlign = 'center';
+    </script>
+
+    <p class = "Ty">
+        Thanks for the information --> https://stardewvalleywiki.com/Fish
+    </p>
+
+    </body>
+</html>
+
+
+
+
+
